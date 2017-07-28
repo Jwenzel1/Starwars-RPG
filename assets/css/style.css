@@ -1,0 +1,60 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  padding: 40px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+
+h1{
+  float: right;
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+.char{
+  display: inline-block;
+  border: 2px solid green;
+  padding: 16px 16px 0px 16px;
+  margin: 5px
+}
+
+.char p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.enemy{
+  background-color: red;
+  border: 2px solid red;
+}
+
+.player{
+  background-color: green;
+}
+
+#availableChar .char:hover{
+  background-color: green;
+}
+
+#availableChar{
+  clear: right;
+}
+.charSection{
+  min-height: 200px;
+}
+
+#info{
+  font-weight: bold;
+  height: 280px;
+  overflow: scroll;
+}
